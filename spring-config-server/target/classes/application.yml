@@ -1,0 +1,8 @@
+server:
+  port: ${PORT:8888}
+  contextPath: /configserver
+
+logging:
+  levels:
+    org.springframework.boot.env.PropertySourcesLoader: TRACE
+    org.springframework.web: DEBUG
